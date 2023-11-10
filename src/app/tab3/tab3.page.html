@@ -26,33 +26,13 @@
           </ion-thumbnail>
           <ion-label>{{cartService.carrito[0].producto.nombre}},{{cartService.carrito[0].producto.nombre}}</ion-label>
         </ion-item>
-  
-        <ion-item>
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-        </ion-item>
-  
-        <ion-item>
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-        </ion-item>
-  
-        <ion-item lines="none">
-          <ion-thumbnail slot="start">
-            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
-          </ion-thumbnail>
-          <ion-label>Item</ion-label>
-        </ion-item>
+
       </ion-list>
     </ion-card-content>
   </ion-card>
   <ion-list [inset]="true">
     <ion-item>
-      <ion-label> SUBTOTAL {{this.cartService.totalCarrito}}</ion-label>
+      <ion-label> SUBTOTAL {{cartService.totalCarrito}}</ion-label>
     </ion-item>
     <ion-item>
       <ion-label>Descuentos</ion-label>

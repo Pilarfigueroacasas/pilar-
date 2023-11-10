@@ -1,0 +1,7 @@
+{
+  "name": "enclase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
